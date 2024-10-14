@@ -9,7 +9,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+
+}   
 
 .post__text {
 	font-family: Montserrat;
@@ -37,6 +38,7 @@
 	text-decoration: none;
 }
 
+
 .post__button.like {
 	display: flex;
     align-items: center;
@@ -46,4 +48,21 @@
     padding: 5px;
     font-size: 18px;
     color: #333;
+    margin-left: 16px;
 } 
+
+.post__button.view {
+	display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    color: #333;
+    
+} 
+
+.post__footer-stats {
+    display: flex;
+}

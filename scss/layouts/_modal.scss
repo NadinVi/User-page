@@ -1,0 +1,42 @@
+.modal__container {
+	position: relative;
+}
+
+.backdrop {
+	position: absolute;
+	top: -1000px;
+	right: 0;
+	bottom: 0;
+	left: -400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	transition: opacity 0.5s, visibility 0.5s;
+
+
+	&.is-hidden {
+		opacity: 0;
+		visibility: hidden;
+		pointer-events: none;
+	}
+}
+
+.modal {
+	position: absolute;
+	width: 176px;
+	height: 124px;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--color-main-background);
+	opacity: 94%;
+
+	&__button {
+		background-color: var(--color-main-background);
+		border: none;
+		padding-left: 16px;
+	}
+}

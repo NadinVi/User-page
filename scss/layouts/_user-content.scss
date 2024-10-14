@@ -1,6 +1,7 @@
 .user_detailes {
 	display: flex;
 	padding-top: 72px;
+
 }
 
 .user__info {
@@ -22,6 +23,7 @@
 .user__main-info {
 	margin-left: 24px;
 }
+
 .user__name {
 	margin-top: 8px;
 }
@@ -38,4 +40,11 @@
 .edit__user-icon {
 	margin-right: 8px;
 	fill: var(--color-red);
+}
+
+
+.user__menu-open {
+	background-color: #fff;
+	border: none;
+	cursor: pointer;
 }
