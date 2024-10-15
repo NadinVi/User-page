@@ -2,6 +2,28 @@
   color: var(--color-gray);
   text-decoration: none;
   font-size: 14px;
+  position: relative;
+}
+
+@media screen and (min-width: $bp-tablet) {
+  .link {
+    padding-bottom: 15px;
+  }
+
+  .link::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--color-active-link);
+  }
+
+  .link:hover::after,
+  .link.active::after {
+    width: 100%;
+  }
 }
 
 .link.active {
