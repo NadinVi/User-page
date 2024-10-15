@@ -83,15 +83,12 @@
 display: none;
 
 @media screen and (min-width: $bp-tablet) {
-  display: block;
-  position: absolute;
-  top: 4px;
-  right: 5px;
-  background-color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
- 
-  
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+  }
 }
