@@ -1,12 +1,13 @@
 .link {
   color: var(--color-gray);
   text-decoration: none;
-  font-size: 14px;
+  font-size: 10px;
   position: relative;
 }
 
 @media screen and (min-width: $bp-tablet) {
   .link {
+    font-size: 14px;
     padding-bottom: 19px;
   }
 

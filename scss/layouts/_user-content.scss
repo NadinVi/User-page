@@ -1,11 +1,10 @@
 .user_detailes {
   display: flex;
   flex-direction: column;
+  padding-top: 72px;
   
-
   @media screen and (min-width: $bp-tablet) {
     flex-direction: row;;
-    padding-top: 72px;
   }
 }
 
@@ -17,6 +16,7 @@
   @media screen and (min-width: $bp-tablet) {
     flex-direction: row;
     align-items: flex-start;
+    justify-content: center;
   }
 }
 .user__info {
@@ -27,15 +27,18 @@
 
   @media screen and (min-width: $bp-tablet) {
     align-items: flex-start;
+    margin-right: 40px;
   }
 }
 
 .user {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   @media screen and (min-width: $bp-tablet) {
-    display: flex;
+  display: flex;
   flex-direction: row;
   }
   
@@ -47,7 +50,16 @@
 }
 
 .user__main-info {
-  margin-left: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: $bp-tablet) {
+    align-items: flex-start;
+    margin-left: 24px;
+  }
+
 }
 
 .user__name {
@@ -70,7 +82,12 @@
 
 
 .user__menu-open {
-  background-color: #fff;
+  display: none;
+
+  @media screen and (min-width: $bp-tablet) {
+    ackground-color: #fff;
   border: none;
   cursor: pointer;
+  }
+
 }

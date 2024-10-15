@@ -14,8 +14,12 @@
 
 .post__text {
   font-family: Montserrat;
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 400;
+
+  @media screen and (min-width: $bp-tablet) {
+    font-size: 36px;
+  }
 }
 
 .post__footer {
