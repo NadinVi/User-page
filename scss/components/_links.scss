@@ -7,13 +7,13 @@
 
 @media screen and (min-width: $bp-tablet) {
   .link {
-    padding-bottom: 15px;
+    padding-bottom: 19px;
   }
 
   .link::after {
     content: '';
     position: absolute;
-    bottom: -15px;
+    bottom: -19px;
     left: 0;
     width: 0;
     height: 2px;

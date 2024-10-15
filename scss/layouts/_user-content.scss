@@ -1,22 +1,44 @@
 .user_detailes {
+  display: flex;
   flex-direction: column;
+  
 
   @media screen and (min-width: $bp-tablet) {
-    display: flex;
+    flex-direction: row;;
     padding-top: 72px;
   }
 }
 
+.user_page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media screen and (min-width: $bp-tablet) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
 .user__info {
   max-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (min-width: $bp-tablet) {
+    align-items: flex-start;
+  }
 }
 
 .user {
   display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: $bp-tablet) {
+    display: flex;
   flex-direction: row;
+  }
+  
 }
 
 .avatar {
